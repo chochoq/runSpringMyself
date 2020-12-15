@@ -12,5 +12,8 @@
 <P>  The time on the server is ${serverTime}. </P>
 
 <h2>hello world 22</h2>
+<body>
+	<table></table>
+</body>
 </body>
 </html>
