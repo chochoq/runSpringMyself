@@ -17,6 +17,7 @@ public class MemberService {
 
     //디펜던시인젝션 DI
     public MemberService(MemberRepository memberRepository) {
+
         this.memberRepository = memberRepository;
     }
 

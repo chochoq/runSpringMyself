@@ -14,6 +14,7 @@ import javax.sql.DataSource;
 @Configuration
 public class SpringConfig {
 
+
     private EntityManager em;
 
     @Autowired
