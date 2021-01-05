@@ -10,5 +10,5 @@ public class HelloSpringApplication {
 		SpringApplication.run(HelloSpringApplication.class, args);
 		//aop다시듣기
 	}
-
+//aop다시듣기
 }
