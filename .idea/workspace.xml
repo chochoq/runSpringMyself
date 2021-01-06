@@ -1,75 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f62ad3a7-6433-408b-977c-1bea23d360e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/6.7/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/configuration-cache/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/hello-spring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/modules/hello-spring.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/modules/hello-spring.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelliJ-workspace/hello-spring/out/production/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/java/com/example/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/java/com/example/domain/BoardVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/java/com/example/domain/Criteria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/java/com/example/domain/PageMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/java/com/example/domain/ReplyVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/java/com/example/mapper/MysqlMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/java/com/example/mapper_oracle/OracleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/java/com/example/service/TradeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/resources/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/resources/log4jdbc.log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/resources/mapper/MysqlMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/resources/mapper_oracle/OracleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/test/java/com/example/controller/MysqlTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/test/java/com/example/controller/OracleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setupSE1.7/src/test/resources/log4j.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="f62ad3a7-6433-408b-977c-1bea23d360e0" name="Default Changelist" comment="자바코드로 직접 빈등록" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="againSpringBoot" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mPrDiE1fCai4GMTK6gxrNX3lqY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,7 +28,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/intelliJ-workspace" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/intelliJ-workspace" />
+      <recent name="$PROJECT_DIR$/intelliJ-workspace/helloSpring" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,10 +45,46 @@
       <option name="presentableId" value="Default" />
       <updated>1609405950183</updated>
       <workItem from="1609405953083" duration="3000" />
+      <workItem from="1609932712732" duration="383000" />
     </task>
+    <task id="LOCAL-00001" summary="자바코드로 직접 빈등록">
+      <created>1609933064818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609933064818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="SpringBean" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="자바코드로 직접 빈등록" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바코드로 직접 빈등록" />
   </component>
 </project>
