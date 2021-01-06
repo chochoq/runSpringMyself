@@ -2,6 +2,7 @@ package helloIDSpring.helloSpring.service;
 
 import helloIDSpring.helloSpring.domain.Member;
 import helloIDSpring.helloSpring.repository.MemberRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,6 +13,7 @@ public class MemberService {
 
     //DI작업
     public MemberService(MemberRepository memberRepository) {
+
         this.memberRepository = memberRepository;
     }
 
@@ -33,14 +35,13 @@ public class MemberService {
                 });
     }
 
+
     //모든 회원조회
     public List<Member> findMembers(){
-
         return memberRepository.findAll();
     }
 
     public Optional<Member> findOne(Long memberId) {
-
         return memberRepository.findById(memberId);
     }
 }
