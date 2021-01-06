@@ -2,14 +2,19 @@ package helloIDSpring.helloSpring.service;
 
 import helloIDSpring.helloSpring.domain.Member;
 import helloIDSpring.helloSpring.repository.MemberRepository;
-import helloIDSpring.helloSpring.repository.MemoryMemberRepository;
 
 import java.util.List;
 import java.util.Optional;
 
 public class MemberService {
 
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+
+    //DI작업
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
+
 
     //회원가입
     public Long join(Member member) {
