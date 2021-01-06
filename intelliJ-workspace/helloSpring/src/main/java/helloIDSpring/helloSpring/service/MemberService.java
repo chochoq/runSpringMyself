@@ -35,10 +35,12 @@ public class MemberService {
 
     //모든 회원조회
     public List<Member> findMembers(){
+
         return memberRepository.findAll();
     }
 
     public Optional<Member> findOne(Long memberId) {
+
         return memberRepository.findById(memberId);
     }
 }
