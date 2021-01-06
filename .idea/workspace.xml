@@ -71,7 +71,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="SpringBean" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -82,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="자바코드로 직접 빈등록" />
