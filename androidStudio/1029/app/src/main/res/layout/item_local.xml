@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10sp"
+    android:orientation="vertical"
+    android:background="#907495"
+    >
+    
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="장소이름"
+        android:textSize="20sp"
+        android:textColor="#E8D9D8"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="주소"
+        android:textSize="15sp"
+        android:textColor="#E8D9D8"
+        android:layout_below="@id/name"
+        />
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="전화번호"
+        android:textSize="15sp"
+        android:textColor="#E8D9D8"
+        android:layout_below="@id/address"
+        />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_location"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5sp"
+        />
+
+
+</RelativeLayout>

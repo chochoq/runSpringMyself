@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //사진촬영
+    <external-path
+        name="image_path"
+        path="."/>
+
+</paths>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="검색"
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:title="도서검색"
+        android:id="@+id/book"
+        />
+    <item
+        android:title="지역검색"
+        android:id="@+id/local"
+        />
+    <item
+        android:title="블로그검색"
+        android:id="@+id/blog"
+        />
+
+
+
+
+</menu>

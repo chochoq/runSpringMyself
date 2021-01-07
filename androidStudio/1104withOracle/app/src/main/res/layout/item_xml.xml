@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#63A1BD"
+    android:padding="10sp"
+    android:layout_margin="5sp"
+    >
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="홍씨"
+        />
+
+    <TextView
+        android:id="@+id/txtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="010-5545-4878"
+        />
+
+    <TextView
+        android:id="@+id/txtAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="인천"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+
+</LinearLayout>

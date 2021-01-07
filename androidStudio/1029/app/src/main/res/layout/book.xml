@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#5393B1"
+    android:padding="10sp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginRight="10sp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_toRightOf="@id/image"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#FFEB3B"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        />
+
+    <TextView
+        android:id="@+id/authors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="authors"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/title"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/authors"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+
+
+</RelativeLayout>

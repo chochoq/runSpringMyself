@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#98B3C8"
+    android:padding="20sp"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="90sp"
+        android:layout_height="100sp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginRight="15sp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:layout_toRightOf="@id/image"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/pubDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개봉"
+        android:layout_toRightOf="@id/image"
+        android:textSize="15sp"
+        android:layout_below="@id/title"
+        />
+    <TextView
+        android:id="@+id/actor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="출연"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/pubDate"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:id="@+id/userRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="별점"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/actor"
+        android:textSize="10sp"
+        />
+
+</RelativeLayout>

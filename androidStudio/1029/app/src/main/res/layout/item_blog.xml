@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F1C9C9"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목이 출력제목이 출력제목이 출력제목이 출력제목이 출력제목이 출력제목이 출력"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="20sp"
+        android:background="#D36060"
+        />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="유알엘 출력유알엘 출력유알엘 출력유알엘 출력유알엘 출력유알엘 출력유알엘 출력유알엘 출력유알엘 출력"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="15sp"
+
+        />
+
+</LinearLayout>

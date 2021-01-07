@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:src="@mipmap/ic_launcher_round"
+        />
+
+    <TextView
+        android:id="@+id/txtCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="코드"
+        />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상품이름"
+        android:textStyle="bold"
+        android:padding="10sp"
+        />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가격"
+        />
+
+
+</LinearLayout>
