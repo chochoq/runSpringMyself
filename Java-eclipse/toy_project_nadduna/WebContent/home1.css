@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{background:white;
+}
+
+  	
+#divPage{width:980px;
+ background:white;
+ margin:auto;
+ margin-top:0px;
+ padding:0px 0px 20px 0px;}
+#divMenu{margin:auto;
+ overflow:hidden;
+ background:#B2CCFF;
+ padding:15px 0px 15px 20px;
+ border-bottom:1px solid #6799FF;}
+#divMenu .item{width:100px;
+ float:left;
+ text-align:center;}
+#divHeader{text-align:center;}
+#divCondition{width:900px;
+ margin:auto; overflow:
+ hidden;padding:5px 10px 5px 10px;
+ border:1px solid #6799FF;
+ margin-bottom:10px;
+ background:#B2CCFF;}
+#divSearch{float:left; }
+#divSort{float:right; }
+#tbl{width:900px;
+ margin:auto;
+ text-align:center;}
+#pagination{width:800px; margin:auto; text-align:center; padding:10px 0px 10px 0px;}
+.price, .quantity, .sum {text-align:right;}
+a{text-decoration:none; color:green;}
+a:hover{font-weight:bold;}
+select, input, button {height:23px;}
+table {border-collapse:collapse;}
+td{border:1px solid #6799FF; height:30px; font-size:12px; padding:0px 5px 0px 5px;}
+table .title{background:#B2CCFF; text-align:center;}
+table .row:hover{background:gray; color:white;}
+input, button, select, textarea {font-size:12px;}
+input[type='radio'], input[type='checkbox'] {height:12px;}
+td button{text-align:center;}
+textarea{margin:5px 0px 5px 0px;}
+
