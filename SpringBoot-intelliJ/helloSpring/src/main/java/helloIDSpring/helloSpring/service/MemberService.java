@@ -3,17 +3,18 @@ package helloIDSpring.helloSpring.service;
 import helloIDSpring.helloSpring.domain.Member;
 import helloIDSpring.helloSpring.repository.MemberRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
 
-    private final MemberRepository memberRepository;
+    private MemberRepository memberRepository;
 
     //DI작업
     public MemberService(MemberRepository memberRepository) {
-
         this.memberRepository = memberRepository;
     }
 
