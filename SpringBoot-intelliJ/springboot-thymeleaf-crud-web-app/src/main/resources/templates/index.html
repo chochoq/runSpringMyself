@@ -22,6 +22,7 @@
                 <th>직원 성 </th>
                 <th>직원 이름 </th>
                 <th>직원 이메일 </th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -29,6 +30,7 @@
                 <td th:text="${employee.firstName}"></td>
                 <td th:text="${employee.lastName}"></td>
                 <td th:text="${employee.email}"></td>
+                <td><a th:href="@{showFormForUpdate/{id}(id=${employee.id})}" class="btn btn-primary">Update</a></td>
             </tr>
 
         </tbody>
