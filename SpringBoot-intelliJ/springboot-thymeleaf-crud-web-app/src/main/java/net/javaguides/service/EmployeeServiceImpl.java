@@ -4,7 +4,6 @@ import net.javaguides.model.Employee;
 import net.javaguides.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -35,6 +34,11 @@ public class EmployeeServiceImpl implements EmployeeService {
             throw new RuntimeException("Employee net found for id ::  " + id);
         }
         return employee;
+    }
+
+    @Override
+    public void deleteEmployeeById(long id) {
+        this.employeeRepository.deleteById(id);
     }
 
 

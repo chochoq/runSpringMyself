@@ -44,6 +44,14 @@ public class EmployeeController {
 
         //set employee as a model attribute to pre-populate the form
         model.addAttribute("employee", employee);
-        return "update_emplpyee";
+        return "update_employee";
     }
+
+    @GetMapping("/deleteEmployee/{id}")
+    public String deleteEmployee(@PathVariable(value = "id") long id) {
+        //딜리스메소드부르기
+        this.employeeService.deleteEmployeeById(id);
+        return "redirect:/";
+    }
+
 }
