@@ -32,6 +32,8 @@ target/
 /.nb-gradle/
 build/
 !**/src/test/**/build/
+.idea
+.gradle
 
 ### VS Code ###
 .vscode/
