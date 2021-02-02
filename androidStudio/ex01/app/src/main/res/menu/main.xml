@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="연습1"
+        android:id="@+id/item1"/>
+    <item android:title="연습2"
+        android:id="@+id/item2"/>
+    <item android:title="연습3"
+        android:id="@+id/item3"/>
+    <item android:title="연습4"
+        android:id="@+id/item4"/>
+    <item android:title="연습5"
+        android:id="@+id/item5"/>
+</menu>

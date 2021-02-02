@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+#header, #footer {text-align:center;}
+#page {background:white;width:980px; box-shadow:10px 10px 10px gray; margin:auto;padding:20px;}
+#center{overflow:hidden; border:1px dotted green;}
+#menu{width:200px; float:left; padding:10px;}
+#content{width:720px; float:left; padding:0px 10px 30px 20px;; border-left:1px dotted green;}
+.item {height:30px;} .item a{text-decoration:none; color:green;padding:5px;} .item a:hover{color:white; background:green;}
+table {border-collapse:collapse;}
+#btnMenu{margin-top:5px;}

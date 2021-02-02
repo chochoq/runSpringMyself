@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    //검색만들기
+    <item
+        android:title="search"
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:title="일기"
+        android:id="@+id/add"
+        />
+
+    <item
+        android:title="정렬"
+        android:id="@+id/order">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="날짜순정렬"
+                    android:id="@+id/orderDate"/>
+                <item android:title="제목순정렬"
+                    android:id="@+id/orderSubject"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
