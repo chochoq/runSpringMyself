@@ -77,4 +77,4 @@ build/
 /build
 /captures
 .externalNativeBuild
-.cxx
+.cxx.cache/
