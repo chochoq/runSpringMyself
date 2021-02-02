@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62ad3a7-6433-408b-977c-1bea23d360e0" name="Default Changelist" comment="자바코드로 직접 빈등록">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
       <workItem from="1609933955642" duration="1000" />
       <workItem from="1609933971367" duration="1000" />
       <workItem from="1609934129056" duration="21000" />
+      <workItem from="1612266110625" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="자바코드로 직접 빈등록">
       <created>1609933064818</created>
