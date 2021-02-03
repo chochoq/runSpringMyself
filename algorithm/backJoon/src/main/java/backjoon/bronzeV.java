@@ -20,6 +20,7 @@ public class bronzeV {
 
         System.out.println(a + b);
         System.out.println(a - b);
+        System.out.println(a * b);
         System.out.println("");
 
 //    1271 엄청난 부자2
@@ -39,7 +40,14 @@ public class bronzeV {
         String input = br.readLine();
         System.out.println(Integer.parseInt(input, 16));
 
-
+//   2475 검증수
+        System.out.println("2475 검증수");
+        int result = 0;
+        int cnt = 0;
+        for (int i = 0; i < 5; i++) {
+            cnt += Math.pow(sc.nextInt(), 2);
+        }
+        System.out.println(cnt % 10);
     }
 
 }
