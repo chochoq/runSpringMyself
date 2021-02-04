@@ -48,6 +48,23 @@ public class bronzeV {
             cnt += Math.pow(sc.nextInt(), 2);
         }
         System.out.println(cnt % 10);
+
+//        2845 파티가 끝나고 난 뒤
+        System.out.println("2845 파티가 끝나고 난 뒤");
+        int L; //사람의수
+        int P; //파티가 열렸던 곳의 넓이
+        L = sc.nextInt();
+        P = sc.nextInt();
+        // l x p - 신문사람수
+
+        int[] arr1 = new int[5];
+        int[] arr2 = new int[5];
+
+        for (int i = 0; i < 5; i++) {
+            arr1[i] = sc.nextInt();
+            arr2[i] = arr1[i] - (L * P);
+            System.out.print(arr2[i] + " ");
+        }
     }
 
 }
