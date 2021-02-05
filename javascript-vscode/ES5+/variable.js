@@ -1,7 +1,7 @@
 // use strict
 'use strict';
 
-//variable
+//variable rw(read/write)
 // let (add in ES6)
 let globalName = 'global name'
 {
@@ -16,13 +16,13 @@ console.log(globalName);
 // var(don't ever use this)
 // var hoisting 
 
-// Constants
+// Constants r(read only )
 const daysInWeek = 7;
 const maxNumber = 5;
 
 // variable types
 // primitive(single item): Number, String, Bollean, Null, Undefiedn,symbol
-// object(box container)
+// object(box container) 레퍼런스가 메모리가 저장
 // function(first-class function)
 
 const count = 17;
