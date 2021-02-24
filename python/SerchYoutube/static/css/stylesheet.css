@@ -1,0 +1,41 @@
+.form-inline {
+    margin-right: 150px;
+    height: 200px;
+}
+
+.weather {
+    margin-left: 850px;
+}
+
+.welcomeHi {
+    margin-left: 50px;
+}
+
+.loginBox {
+    width: 350px;
+    margin-left: 1000px;
+    position: relative;
+}
+
+.savingYoutube {
+    float: left;
+    width: 950px;
+}
+
+.bigBody {
+    width: 1350px;
+    margin: auto;
+}
+
+.form-inline {
+    height: 50px;
+
+}
+
+.navbar-brand {
+    width: 1350px;
+}
+
+.dropdown{
+    color: black;
+}
