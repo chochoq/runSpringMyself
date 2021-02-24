@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>검색어를 입력하세요 www</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <style>
+        .form-inline {
+            margin-right: 150px;
+            height: 200px;
+        }
+
+        .weather {
+            margin-left: 850px;
+        }
+        .welcomeHi{
+            margin-left: 50px;
+        }
+
+        .loginBox {
+            width: 350px;
+            margin-left: 1000px;
+            position: relative;
+        }
+
+        .savingYoutube {
+            float: left;
+            width: 950px;
+        }
+        .bigBody{
+            width: 1350px;
+            margin: auto;
+        }
+        .form-inline{
+            height: 50px;
+
+        }
+        .navbar-brand{
+            width: 1350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bigBody">
+        <div id="header">
+            <nav class="navbar navbar-light bg-light justify-content-between">
+                <a class="navbar-brand" href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZrnIBK-bq5Ij_W4LwLdqYs_bEXFAwhimHlQ&usqp=CAU"
+                         width="250" height="150" class="d-inline-block align-top" alt="">
+                    <h1 class="headerName" >youtube를 입력하세요 www</h1>
+                </a>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="youtube 검색하기" aria-label="Search"
+                           style="width: 800px;">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="button">검색</button>
+                </form>
+            </nav>
+        </div>
+        <hr>
+
+        <span class="welcomeHi">000님 어서오세요 </span>
+        <span class="weather">날씨정보</span>
+        <hr>
+        <div class="savingYoutube" >
+            <nav class="navbar navbar-light bg-light">
+                <form class="form-inline" style="height: 80px">
+                    <input class="form-control mr-sm-2" type="search" placeholder="저장할 url을 입력해주세요" aria-label="Search" style="width: 600px">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">저장</button>
+                </form>
+            </nav>
+            <div class="card text-white">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/09/0c/06/090c0658afb2350efff9c2ac705d5fe9.jpg"
+                     alt="card-img-top">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">desc</p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                    <button type="button" class="btn btn-warning">관심</button>
+
+                </div>
+                <ul class="list-group"  style="color: black">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"">
+                        리플 받아오기!!
+                        <span class="badge badge-primary badge-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Dapibus ac facilisis in
+                        <span class="badge badge-primary badge-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Morbi leo risus
+                        <span class="badge badge-primary badge-pill">1</span>
+                    </li>
+                </ul>
+                <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea" placeholder="코멘트를 적어주세요"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-secondary">확인</button>
+                <button type="button" class="btn btn-outline-danger">삭제</button>
+            </div>
+        </div>
+        <div class="loginBox">
+            <form class="px-4 py-3">
+                <div class="form-group">
+                    <label for="exampleDropdownFormEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleDropdownFormPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">New around here? Sign up</a>
+            <a class="dropdown-item" href="#">Forgot password?</a>
+        </div>
+    </div>
+</body>
+</html>
