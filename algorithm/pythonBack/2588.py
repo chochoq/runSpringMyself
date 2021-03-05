@@ -10,6 +10,7 @@ C = int(B[0])
 D = int(B[1])
 E = int(B[2])
 
+# 연산 출력
 print(E * A)
 print(D * A)
 print(C * A)
