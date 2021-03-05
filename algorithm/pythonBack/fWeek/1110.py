@@ -81,13 +81,13 @@
 
 num = temp = 26
 count = 0
-while True:
+while True: #조건이 명확하지않을 때 while을 자주사용!!
     ten = num // 10 # int(num/10)과 같음 나눈 몫 
     one = num % 10 # 나머지
     total = ten + one
-    count += 1
+    count += 1 
     num = int(str(num % 10) + str(total % 10))
-    if(temp == num): # 비교군temp와 계속 변화했던 수num의 비교
+    if(temp == num): # 비교군temp와 계속 변화했던 수num의 비교한후 브레이크
         break
 print(count)
 
