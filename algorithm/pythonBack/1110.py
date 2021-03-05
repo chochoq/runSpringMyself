@@ -45,34 +45,50 @@
 
 
 
-num = int(input())
+# num = int(input())
 
-i = num
+# i = num
 
-cnt = int(0)
+# cnt = int(0)
 
 
-while True :
-     ten = int(i/10)   #2
-     one = i%10   # 6
-     total = ten+one   # 08
+# while True :
+#      ten = int(i/10)   #2
+#      one = i%10   # 6
+#      total = ten+one   # 08
      
-     i = int(str(one) + str(total%10)) 
-     cnt += 1
-     if(num == i) : 
-          break
+#      i = int(str(one) + str(total%10)) 
+#      cnt += 1
+#      if(num == i) : 
+#           break
 
-print(cnt)
+# print(cnt)
+
+# #  대조군tmep 와 변화될 값 num
+# num = int(input()) 
+# cnt = 0
+
+# # while True :
+# #     ten = num // 10 # int(num/10)과 같음
+# #     one = num % 10
+
+# ten = num // 10 # 34입력시 3
+# a=int(num/10)   #3
+
+# b=int(num)/10   3.4
+# c=num/10    3.4
 
 
-num = temp = int(input())
+num = temp = 26
 count = 0
 while True:
-    ten = num // 10
-    one = num % 10
+    ten = num // 10 # int(num/10)과 같음 나눈 몫 
+    one = num % 10 # 나머지
     total = ten + one
     count += 1
     num = int(str(num % 10) + str(total % 10))
-    if(temp == num):
+    if(temp == num): # 비교군temp와 계속 변화했던 수num의 비교
         break
 print(count)
+
+# http://pythontutor.com/live.html#mode=edit
