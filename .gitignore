@@ -222,3 +222,6 @@ cython_debug/
 .idea/
 
 .xml
+
+.venv
+/.venv
