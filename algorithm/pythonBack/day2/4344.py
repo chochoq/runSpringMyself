@@ -18,9 +18,10 @@ n = int(input())
 
 for i in range(0,n): 
     #range는 0번부터 n번까지 돌린다 n값이 들어오면 0-n까지 for가 돔
-    l = input().split()
+    l = list(input().split())
     sum = 0
     studentNum = int(l[0])
+    
     for j in range(1,len(l)): 
 #len은 length, range를 1부터 돌리는 이유는 성적이 1번부터 담겨있기때문에
         sum +=int(l[j])
@@ -36,7 +37,8 @@ for i in range(0,n):
     print("%.3f" % percent + "%")
     # %.3f % 퍼센트의 소수점을 제한하는 치트시트
 
-
+# 치트시트 생코 
+# https://opentutorials.org/course/1750/9689
     
 # 5
 # 5 50 50 70 80 100
