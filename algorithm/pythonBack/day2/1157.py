@@ -63,17 +63,26 @@
 
 
 alphabet = input().upper() 
-#인풋 받은 문자를 모두 대문자로 바꿔줌
-many_alphabet = list(set(alphabet)) 
+#먼저 인풋 받은 문자를 모두 대문자로 바꿔줌
+print(alphabet)
+
+one_alphabet = list(set(alphabet)) 
+# set함수의 중복된 값을 자동으로 제거하는 특성을 이용해 중복된 알파벳 제거 후 리스트에 담아줌
+
+print(one_alphabet)
 
 cnt_list = []
 
-for i in many_alphabet :
+for i in one_alphabet :
     cnt = alphabet.count(i)
-    cnt_list.append(cnt) # cnt를 리스트에 추가
+    # 같은 알파벳이 몇개 있는지 count
+    cnt_list.append(cnt) 
+    # cnt를 리스트에 append
 
-if cnt_list.count(max(cnt_list)) > 1 : # cnt 최대값이 중복될 시
+if cnt_list.count(max(cnt_list)) > 1 : 
+    # cnt 최대값이 중복될 시 ? 출력
     print('?')
 else :
     max = cnt_list.index(max(cnt_list))
-    print(many_alphabet[max])
+    # 최대값이 1개라면 index함수로 위치를 찾는다
+    print(one_alphabet[max])
