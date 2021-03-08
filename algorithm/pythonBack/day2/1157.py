@@ -68,6 +68,9 @@ print(alphabet)
 
 one_alphabet = list(set(alphabet)) 
 # set함수의 중복된 값을 자동으로 제거하는 특성을 이용해 중복된 알파벳 제거 후 리스트에 담아줌
+# set 내장함수
+# set 안에 input을 넣을 경우 list 안에 넣어줘야함 
+# set해서 알파벳을 하나씩만 추출함
 
 print(one_alphabet)
 
@@ -86,3 +89,23 @@ else :
     max = cnt_list.index(max(cnt_list))
     # 최대값이 1개라면 index함수로 위치를 찾는다
     print(one_alphabet[max])
+
+
+# word = input().upper()
+# word_lst = list(set(word))
+# cnt = 0
+# char_lst = []
+# for i in word_lst:
+#   cnt_1 = word.count(i)
+#   if cnt_1 >= cnt:
+#     if cnt_1 == cnt:
+#       char_lst.append(i)
+#     else:
+#       char_lst = []
+#       char_lst.append(i)
+#     cnt = cnt_1
+
+# if len(char_lst) > 1:
+#   print('?')
+# else:
+#   print(char_lst[0])
