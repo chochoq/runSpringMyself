@@ -13,6 +13,7 @@ def hanoi(n, start, trans, end):
         print(start, end)
         hanoi(n - 1, trans, start, end)
 sum = 1
+
 for i in range(n - 1):
     sum = sum * 2 + 1
     # 여기 이해못해욤
