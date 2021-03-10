@@ -3,7 +3,7 @@
 
 
 # 숫자입력
-A, B = input().split(' ')
+A, B = input().split()
 
 # 숫자출력
 # print(A)
