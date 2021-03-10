@@ -38,10 +38,8 @@ while(1):
     for i in vps:
         if i=='(':
              stack_check_list.append(0)
-
         elif i=='[':
             stack_check_list.append(1)
-
         elif i==')':
             if len(stack_check_list)==0:
                 check = 0
@@ -50,7 +48,6 @@ while(1):
                 #엇갈렸을때
                 check = 0
                 break
-
         elif i==']':
             if len(stack_check_list)==0:
                 check = 0
@@ -66,3 +63,35 @@ while(1):
 
     else:
         print("no")
+
+        
+---
+
+# stack = []
+# answer = []
+# while stack != ['.']:
+#   stack = list(input())
+#   if stack == ['.']:
+#     break
+#   lst = ['(', ')', '[', ']']
+#   n = -1
+#   # for 반복문으로 stack에 뒤에부터 lst안에 있는 element 빼고 다른 element는 다 빼낸다.
+#   for i in range(len(stack)):
+#     if stack[n] not in lst:
+#       stack.pop(n)
+#     else: #lst안에 있는 element가 stack[n]자리에 있으면 stack[n-1]값을 검사한다.
+#       n = n-1
+#   string = ""
+#   for ele in stack:
+#     string += ele
+#   # string안에 괄호가 제대로 되어있는지 알기위해서 '()', '[]' 값이랑 비교하고 그 값들을 없앤다.
+#   # ')('이나 '][' 제대로 괄호가 나열되어있지 않으면 string에 값이 남아 있을 것이다.
+#   while  '()' in string or '[]' in string: 
+#     string = string.replace('()', '')
+#     string = string.replace('[]', '')
+#   if not string: #만약 string변수 안에 아무런 값도 없으면!
+#     answer.append('yes')
+#   else:
+#     answer.append('no')
+# for i in answer:
+#   print(i)
