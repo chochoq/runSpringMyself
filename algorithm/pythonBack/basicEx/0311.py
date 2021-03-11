@@ -18,3 +18,39 @@
 # x = 1
 # x = n*(n+1)//2
 # print(x)
+
+# 재귀함수
+
+# def f(n):
+#     if n <= 1:
+#         return 1
+#     else :
+#         return n+ f(n-1)
+
+# n = 100
+
+# print(f(n))
+
+# def f(n):
+#     if n <= 1:
+#         return 1
+#     else :
+#         return n * f(n-1)
+
+# n = 5
+
+# print(f(n))
+
+x = int(input('2진수로 바꿀 숫자를 입력하세요 : '))
+result = ''
+while True:
+    if x % 2 == 0:
+        result += '0'
+    else:
+        result += '1'
+
+    x = x // 2
+    if x == 1 or x == 0 :
+        result += str(x)
+        print(result[::-1])
+        break
