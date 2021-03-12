@@ -41,16 +41,24 @@
 
 # print(f(n))
 
-x = int(input('2진수로 바꿀 숫자를 입력하세요 : '))
-result = ''
-while True:
-    if x % 2 == 0:
-        result += '0'
-    else:
-        result += '1'
+# x = int(input('2진수로 바꿀 숫자를 입력하세요 : '))
+# result = ''
+# while True: 
+#     if x % 2 == 0:
+#         result += '0'
+#     else:
+#         result += '1'
 
-    x = x // 2
-    if x == 1 or x == 0 :
-        result += str(x)
-        print(result[::-1])
-        break
+#     x = x // 2
+#     if x == 1 or x == 0 :
+#         result += str(x)
+#         print(result[::-1])
+#         break
+
+def leejinsu(n):
+    if n < 2 :
+        return str(n)
+    else:
+        return str(leejinsu(n//2))+str(n%2)
+
+print(leejinsu(11))
